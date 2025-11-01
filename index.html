@@ -1,0 +1,35 @@
+<html>
+    <head>
+        <link rel="stylesheet" href="main.css">
+        <script src="gem_data.js"></script>
+        <script src="gem_filters.js"></script>
+        <!--Wowhead js-->
+        <script>const whTooltips = {colorLinks: false, iconizeLinks: true, renameLinks: false};</script>
+        <script src="https://wow.zamimg.com/js/tooltips.js"></script>
+    </head>
+    <body>
+        <div class="centering content-box"><h1 class = "main-title">Wotlk gems</h1></div>
+        <div class = "centering content-box">
+            <div class = "half-box" id="gem-selector">
+                <h2 class = "sub-title">Filter gems</h2>
+                <div class = "full-box">
+                    <div class = "half-box text" id="gem-stat">
+                        <h2 class = "filter-heading">Stats on gem</h2>
+                    </div>
+                    <div class = "half-box">
+                        <div class = "half-box text" id="gem-color">
+                            <h2 class = "filter-heading">Color</h2>
+                        </div>
+                        <div class = "half-box text" id="gem-size">
+                            <h2 class = "filter-heading">Size</h2>
+                        </div>
+                    </div>
+                </div>
+            </div>
+            <div class = "half-box" id="gem-display-parent">
+                <h2 class = "sub-title">Gems</h2>
+                <div id="gem-display" class = "text"></div>
+            </div>
+        </div>
+    </body>
+</html>

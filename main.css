@@ -1,0 +1,130 @@
+.centering{
+    margin:0px auto 0px auto;
+}
+
+.content-box{
+    width:800px;
+    font-size: 0;
+    display:flex;
+}
+
+.full-box{
+    width:100%;
+    font-size: 0;
+    display:flex;
+}
+
+.half-box{
+    width:50%;
+    font-size: 0;
+    margin:0px;
+}
+
+.main-title{
+    font-size: 40px;
+    margin: 0px 5px 25px 5px;
+}
+
+.sub-title{
+    font-size: 25px;
+    border-style: solid;
+    border-width: 0px 0px 1px 0px;
+    margin: 0px 5px 5px 5px;
+}
+
+.filter-heading{
+    font-size: 14px;
+    border-style: solid;
+    border-width: 0px 0px 1px 0px;
+    margin: 0px 5px 5px 5px;
+}
+
+.text{
+    font-size:12px;
+    font-family: "Segoe UI",Arial,sans-serif;
+    font-weight: 400;
+}
+
+#gem-display{
+    height: 800px;
+    overflow: hidden auto;
+    padding-right:20px;
+}
+
+.gem-listing{
+    width:100%;
+    height:60px;
+    padding:5px;
+    font-size:19px;
+    margin: 5px 0px 5px 0px;
+}
+
+.gem-isting > a {
+    width: 100%;
+    display:block;
+}
+
+.gem-icon{
+    width: 20%;
+    display: inline-block;
+    font-size:0px;
+}
+
+.gem-icon > a > span{
+    float:right;
+}
+
+.gem-info{
+    width: 80%;
+    display: inline-block;
+    font-size:0px;
+    vertical-align: top;
+    height: 100%;
+}
+
+.gem-name{
+    width: 100%;
+    display:block;
+    margin-bottom:10px;
+    font-size:16px;
+    color:black;
+    text-decoration: none;
+}
+
+.gem-stat{
+    font-size:12px;
+    margin-right:5px;
+    display: inline-block;
+}
+
+.gem-bg-0{
+    background-color: #ff5757;
+}
+
+.gem-bg-1{
+    background-color: #57a1ff;
+}
+
+.gem-bg-2{
+    background-color: #d7fa76;
+}
+
+.gem-bg-012{
+    background-color: #ff5191;
+}
+
+.gem-bg-3{
+    background-color: #7ef3ff;
+}
+
+.gem-bg-02{
+    background-color: #ff984e;
+}
+
+.gem-bg-01{
+    background-color: #e485ff;
+}
+
+.gem-bg-12{
+    background-color: #6aff88;
+}
