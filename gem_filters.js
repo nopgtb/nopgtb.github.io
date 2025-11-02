@@ -221,8 +221,7 @@ function apply_filters(){
             gem => active_stats_filters.every(filter_val => gem.gem_stats.some(stat_obj => stat_obj["eid"] == filter_val))
         );
     }
-    //Display filtered gems
-    display_gems(gems_to_display);
+    return gems_to_display;
 }
 
 //Appends the filter info to the url and refreshes the gems
@@ -230,7 +229,9 @@ function filter_value_change(element){
     //Set URL parameters
     set_filter_url(element.target);
     //apply the new filters to the gem data
-    apply_filters();
+    let gems_to_display = apply_filters();
+    //Display filtered gems
+    display_gems(gems_to_display);
 }
 
 //Tries to create a checkbox element using the given data
@@ -345,7 +346,9 @@ function initialize(){
     //Initialize filters
     init_gem_filter();
     //apply the filters to the gem data
-    apply_filters();
+    let gems_to_display = apply_filters();
+    //Display filtered gems
+    display_gems(gems_to_display);
 }
 
 window.onload = initialize;
