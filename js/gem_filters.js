@@ -324,7 +324,7 @@ function init_gem_filter(){
                         values.forEach(
                             (value) => {
                                 //Enable filters by checking checkboxes
-                                let filter_search_string = "#" + key_values[0] + " > div > input[name='"+ key_values[0] + "-" + value + "']"
+                                let filter_search_string = "#" + key_values[0] + " > div > input[name='"+ key_values[0] + "-" + value + "']";
                                 let filter_checkbox = document.querySelector(filter_search_string);
                                 if(filter_checkbox){
                                     filter_checkbox.checked = true;
