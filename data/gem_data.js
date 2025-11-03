@@ -306,20 +306,10 @@ const gem_table_ = [
     {name: "Mysterious Twilight Opal", socket_color:[0,1], gem_size:1, gem_stats:[{eid:1,amount:9,percentage:false}, {eid:15,amount:10,percentage:false}], wowhead_item_id:40028},
     {name: "Mysterious Dreadstone", socket_color:[0,1], gem_size:2, gem_stats:[{eid:1,amount:12,percentage:false}, {eid:15,amount:13,percentage:false}], wowhead_item_id:40135},
 
-    {name: "Mysterious Shadow Crystal", socket_color:[0,1], gem_size:0, gem_stats:[{eid:1,amount:7,percentage:false}, {eid:15,amount:8,percentage:false}], wowhead_item_id:39945},
-    {name: "Perfect Mysterious Shadow Crystal", socket_color:[0,1], gem_size:0, gem_stats:[{eid:1,amount:8,percentage:false}, {eid:15,amount:9,percentage:false}], wowhead_item_id:41455},
-    {name: "Mysterious Twilight Opal", socket_color:[0,1], gem_size:1, gem_stats:[{eid:1,amount:9,percentage:false}, {eid:15,amount:10,percentage:false}], wowhead_item_id:40028},
-    {name: "Mysterious Dreadstone", socket_color:[0,1], gem_size:2, gem_stats:[{eid:1,amount:12,percentage:false}, {eid:15,amount:13,percentage:false}], wowhead_item_id:40135},
-
     {name: "Puissant Shadow Crystal", socket_color:[0,1], gem_size:0, gem_stats:[{eid:9,amount:6,percentage:false}, {eid:13,amount:9,percentage:false}], wowhead_item_id:39933},
     {name: "Perfect Puissant Shadow Crystal", socket_color:[0,1], gem_size:0, gem_stats:[{eid:9,amount:7,percentage:false}, {eid:13,amount:11,percentage:false}], wowhead_item_id:41456},
     {name: "Puissant Twilight Opal", socket_color:[0,1], gem_size:1, gem_stats:[{eid:9,amount:8,percentage:false}, {eid:13,amount:12,percentage:false}], wowhead_item_id:40033},
     {name: "Puissant Dreadstone", socket_color:[0,1], gem_size:2, gem_stats:[{eid:9,amount:10,percentage:false}, {eid:13,amount:15,percentage:false}], wowhead_item_id:40140},
-
-    {name: "Purified Shadow Crystal", socket_color:[0,1], gem_size:0, gem_stats:[{eid:1,amount:7,percentage:false}, {eid:14,amount:6,percentage:false}], wowhead_item_id:39941},
-    {name: "Perfect Purified Shadow Crystal", socket_color:[0,1], gem_size:0, gem_stats:[{eid:1,amount:8,percentage:false}, {eid:14,amount:7,percentage:false}], wowhead_item_id:41457},
-    {name: "Purified Twilight Opal", socket_color:[0,1], gem_size:1, gem_stats:[{eid:1,amount:9,percentage:false}, {eid:14,amount:8,percentage:false}], wowhead_item_id:40026},
-    {name: "Purified Dreadstone", socket_color:[0,1], gem_size:2, gem_stats:[{eid:1,amount:12,percentage:false}, {eid:14,amount:10,percentage:false}], wowhead_item_id:40133},
 
     {name: "Purified Shadow Crystal", socket_color:[0,1], gem_size:0, gem_stats:[{eid:1,amount:7,percentage:false}, {eid:14,amount:6,percentage:false}], wowhead_item_id:39941},
     {name: "Perfect Purified Shadow Crystal", socket_color:[0,1], gem_size:0, gem_stats:[{eid:1,amount:8,percentage:false}, {eid:14,amount:7,percentage:false}], wowhead_item_id:41457},
